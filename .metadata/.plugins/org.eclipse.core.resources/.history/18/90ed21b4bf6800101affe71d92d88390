@@ -1,0 +1,13 @@
+package com.example.Hibernate_Mapping.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+
+@Entity
+public class OneToManyDepartment {
+	private int id;
+	private String department_name;
+	
+	@OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
+	OneToManyEmployee employee;
+}

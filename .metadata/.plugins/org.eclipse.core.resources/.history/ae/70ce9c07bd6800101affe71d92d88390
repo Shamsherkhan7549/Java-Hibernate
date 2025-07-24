@@ -1,0 +1,49 @@
+package com.example.Hibernate_Mapping;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.example.Hibernate_Mapping.entity.OneToOneAddress;
+import com.example.Hibernate_Mapping.entity.OneToOneStudent;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	// Create configuraion
+        Configuration cfg = new Configuration();
+        cfg.configure("hibernate.cfg.xml");
+        cfg.addAnnotatedClass(OneToOneStudent.class);
+        cfg.addAnnotatedClass(OneToOneAddress.class);
+        
+        // Create Session Factory
+        SessionFactory sessionFectory = cfg.buildSessionFactory();
+        
+        //Create Session
+        Session session = sessionFectory.openSession();
+        
+        // Create Transaction
+        Transaction transaction = session.beginTransaction();
+        
+        OneToOneAddress address = new OneToOneAddress();
+ 
+        address.setState("Maharashtra");
+        address.setDistrict("Nagpur");
+        address.setLocality("Manish Nagar");
+        session.save(address);
+    
+        transaction.commit();
+        session.close();
+        session.close();
+        
+        System.out.println("Data added success fully");
+        
+        
+    }
+}

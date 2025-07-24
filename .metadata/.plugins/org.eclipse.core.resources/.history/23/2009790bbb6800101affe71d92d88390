@@ -1,0 +1,47 @@
+package com.example.Hibernate_Mapping.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToOne;
+
+@Entity
+public class OneToOneAddress {
+	private int id;
+	private String locality;
+	private String district;
+	private String country;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getLocality() {
+		return locality;
+	}
+
+	public void setLocality(String locality) {
+		this.locality = locality;
+	}
+
+	public String getDistrict() {
+		return district;
+	}
+
+	public void setDistrict(String district) {
+		this.district = district;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	@OneToOne(mappedBy = "oneToOneAddress")
+	private OneToOneStudent oneToOneStudent;
+}

@@ -1,0 +1,12 @@
+<hibernate-mapping>
+    <class name="com.hibernate.hibernate_basic.entity.Products" table="employees">
+
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="name" column="name" />
+        <property name="quantity" column="quantity" />
+
+    </class>
+</hibernate-mapping>

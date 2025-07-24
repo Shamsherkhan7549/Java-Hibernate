@@ -1,0 +1,46 @@
+package com.example.onetoone;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.example.onetoone.entity.Course;
+import com.example.onetoone.entity.Student;
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Configuration cfg = new Configuration();
+        cfg.configure("hibernate.cfg.xml");
+        cfg.addAnnotatedClass(Student.class);
+        cfg.addAnnotatedClass(Course.class);
+        
+        SessionFactory sf = cfg.buildSessionFactory();
+        
+        Session session = sf.openSession();
+        
+        Transaction tx = session.beginTransaction();
+        
+//        Course course = new Course();
+//        course.setCourse_name("c");
+//       session.saveOrUpdate(course);
+        
+       
+        Student student = new Student();
+        student.setName("Rehan");
+        Course c = new Course();
+        student.setCourse(c);
+        session.saveOrUpdate(student);
+        
+        tx.commit();
+        session.close();
+        
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.shamsher.Hibernate_core.entity&apos; to &apos;Hibernate-core/src/main/java/com.shamsher.Hibernate_core&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate-core&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate-core/src/main/java/com.shamsher.Hibernate_core&apos;&#x0D;&#x0A;- Original element: &apos;Hibernate-core/src/test/java/com.shamsher.Hibernate_core.entity&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shamsher.Hibernate_core" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.shamsher.Hibernate_core.entity" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1753175793560" version="1.0"/>
+</session>

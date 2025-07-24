@@ -1,0 +1,7 @@
+package com.hibernate.hibernate_basic.entity;
+
+public class Products {
+	int id;
+	String name;
+	int quantity;
+}

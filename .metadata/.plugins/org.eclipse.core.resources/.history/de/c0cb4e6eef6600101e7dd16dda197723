@@ -1,0 +1,46 @@
+package com.hibernate.hibernate_basic;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate.hibernate_basic.entity.Students;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Configuration cfg = new Configuration();
+    	cfg.configure("hibernate.cfg.xml");
+    	cfg.addAnnotatedClass(Students.class);
+    	
+    	SessionFactory sf = cfg.buildSessionFactory();
+    	Session s = sf.openSession();
+    	
+    	Transaction tx = s.beginTransaction();
+    	
+    	//Save Student info
+    	Students student = new Students();
+    	student.setId(4);
+    	student.setName("casey");
+    	student.setEmail("casey123'@gmail.com");
+    	
+    	
+    	//int id = (int) s.save(student);
+    	s.saveOrUpdate(student);   // use save and update
+    	tx.commit();
+    	//System.out.println("Response : " + id);
+    	
+    	// Fetch Student info
+    	Students get_student = s.get(Students.class, 4);
+    	System.out.println("Student Id : " + get_student.getId());
+    	System.out.println("Student Name : " + get_student.getName());
+    	System.out.println("Student Email : " + get_student.getEmail());
+
+    }
+}

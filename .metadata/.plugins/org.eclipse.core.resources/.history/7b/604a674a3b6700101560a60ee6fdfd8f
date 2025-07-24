@@ -1,0 +1,34 @@
+package com.hibernate.hibernate_basic;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate.hibernate_basic.entity.Employees;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		
+		SessionFactory sf = cfg.buildSessionFactory();
+		
+		Session session = sf.openSession();
+		
+		Transaction tx = session.beginTransaction();
+		
+		Employees employee = new Employees();
+		employee.setName("Shamsher");
+		employee.setSalary(7500);
+		
+		session.saveOrUpdate(employee);
+		tx.commit();
+		
+		
+		session.close();
+
+		System.out.println("Data saved successfully");
+	
+	}
+
+}

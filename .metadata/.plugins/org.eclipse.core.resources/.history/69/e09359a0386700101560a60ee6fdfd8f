@@ -1,0 +1,5 @@
+package com.hibernate.hibernate_basic.entity;
+
+public class Employees {
+
+}
