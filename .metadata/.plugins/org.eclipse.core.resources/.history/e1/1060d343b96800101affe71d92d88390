@@ -1,5 +1,0 @@
-package com.example.Hibernate_Mapping.entity;
-
-public class OneToOneStudent {
-
-}

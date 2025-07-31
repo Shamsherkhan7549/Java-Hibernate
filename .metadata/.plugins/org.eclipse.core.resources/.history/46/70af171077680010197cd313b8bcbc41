@@ -1,6 +1,0 @@
-package com.example.onetoone.entity;
-
-public class Course {
-	private int id;
-	private String course_name;
-}

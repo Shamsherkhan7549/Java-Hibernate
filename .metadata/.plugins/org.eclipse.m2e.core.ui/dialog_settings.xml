@@ -42,18 +42,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.example.Hibernate_Mapping"/>
-			<item value="com.example.onetoone"/>
-			<item value="com.hibernate.hibernate_basic"/>
+			<item value="com.project.student_management"/>
 		</list>
 		<list key="groupId">
-			<item value="com.example"/>
-			<item value="com.hibernate"/>
+			<item value="com.project"/>
 		</list>
 		<list key="artifactId">
-			<item value="Hibernate-Mapping"/>
-			<item value="onetoone"/>
-			<item value="hibernate-basic"/>
+			<item value="student-management"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

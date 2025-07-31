@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.example.Hibernate_Mapping.entity.OneToOneStudent"/>
+    <fullyQualifiedTypeName name="com.example.onetomany.entity.Course"/>
+    <fullyQualifiedTypeName name="com.example.manytomany.entity.Course"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.project.student_management.entity.Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

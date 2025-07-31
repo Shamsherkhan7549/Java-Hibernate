@@ -45,7 +45,7 @@ public class App
 //    	//System.out.println("Response : " + id);
     	
     	// Fetch Student Info
-    	Students studentInfo = s.get(Students.class, 4);
+    	Students studentInfo = s.get(Students.class, 1);
     	System.out.println("Student Id : " + studentInfo.getId());
     	System.out.println("Student Name : " + studentInfo.getName());
     	System.out.println("Student Email : " + studentInfo.getEmail());

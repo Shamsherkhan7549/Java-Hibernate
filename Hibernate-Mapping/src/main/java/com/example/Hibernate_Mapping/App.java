@@ -64,7 +64,7 @@ public class App
         employee.setName("Rahul");
         department.setId(2);
         employee.setDepartment(department);
-        //session.save(employee);
+        session.save(employee);
         
         
         
