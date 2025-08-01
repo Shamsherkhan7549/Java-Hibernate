@@ -120,6 +120,10 @@ public class StudentDao {
 			
 			System.out.println("Username : " + registeredStudent.getUsername());
 			System.out.println("Email : " + registeredStudent.getEmail());
+			System.out.println("Purchased Courses : ");
+			for(Course course: registeredStudent.getCourses()) {
+				System.out.println("Course_id : " + course.getCourse_id() + ", Course : " + course.getCourse_name() + ", Duration : " + course.getDuration());
+			}
 			
 		}catch(Exception ex){
 			System.out.println("Exception in student profile() : " + ex);
