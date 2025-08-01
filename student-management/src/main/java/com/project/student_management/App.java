@@ -11,7 +11,23 @@ public class App
     public static void main( String[] args )
     {
     	Scanner sc = new Scanner(System.in);
-    	
+    	//Admin
+    	Admin registeredAdmin = new Admin();
+    	//AdminDao
+        AdminDao adminDao = new AdminDao();
+        // AdminDao configue
+        boolean isConfigure = adminDao.isConfigureAdmin();
+        if(!isConfigure) {
+        	System.out.println("Problem in Adminn Configuration");
+        	return;
+        }
+        
+        //CourseDao
+        CourseDao courseDao = new CourseDao();
+        if(!courseDao.isConfigureCourse()) {
+    		System.out.println("Problem in configuration");
+    		return;
+    	}
        
     	
     	// Admin
@@ -27,22 +43,14 @@ public class App
         
         System.out.println("Enter Option : ");
         int option = sc.nextInt();
-        
-        //AdminDao
-        AdminDao adminDao = new AdminDao();
-        boolean isConfigure = adminDao.isConfigureAdmin();
-        if(!isConfigure) {
-        	System.out.println("Problem in Adminn Configuration");
-        	return;
-        }
-        
+           
         if(option == 1) {
         	System.out.println("Enter Admin Passcode");
         	String passcode = sc.next();
         	
         	if(passcode.equals("adminpasscode")) {        		
-        		boolean isAdminRegistered = adminDao.insertAdmin();
-        		if(isAdminRegistered) {
+        		registeredAdmin = adminDao.singupAdmin();
+        		if(registeredAdmin != null) {
         			isAdminLogin = true;
         		}
         	}
@@ -52,8 +60,8 @@ public class App
         	
         	System.out.println("Enter Password");
         	String password = sc.next();
-        	Admin isExist = adminDao.isAdminExist(username,password);
-        	if(isExist != null) {
+        	registeredAdmin = adminDao.loginAdmin(username,password);
+        	if(registeredAdmin != null) {
         		isAdminLogin = true;
         	}else {
         		isAdminLogin = false;
@@ -61,53 +69,48 @@ public class App
         	
         }
         
-        
-        //CourseDao
-        CourseDao courseDao = new CourseDao();
-        
+        //Admin functionalities
         while(isAdminLogin) {
-        	System.out.println("Enter 1 to View Course");       	
-        	System.out.println("Enter 2 to Add Course");
-        	System.out.println("Enter 3 to Update Course");      
-        	System.out.println("Enter 4 to Delete Course");    
+        	System.out.println("Enter 1 to See Profile"); 
+        	System.out.println("Enter 2 to View Course");       	
+        	System.out.println("Enter 3 to Add Course");
+        	System.out.println("Enter 4 to Update Course");      
+        	System.out.println("Enter 5 to Delete Course");    
         	
-        	System.out.println("Enter 5 to View Students");      
-        	System.out.println("Enter 6 to Add Student");      	
-        	System.out.println("Enter 7 to Update Student");
+        	System.out.println("Enter 6 to View Students");      
+        	System.out.println("Enter 7 to Add Student");      	
+        	System.out.println("Enter 8 to Update Student");
         	
         	System.out.println("Enter Option");
         	int opt = sc.nextInt();
         	
-        	if(!courseDao.isConfigureCourse()) {
-        		System.out.println("Problem in configuration");
-        		return;
-        	}
-        	
         	switch(opt) {
-        	
         	case 1:
+        		adminDao.profile(registeredAdmin);
+        		break;
+        	case 2:
         		courseDao.fetchAllCourse();
         		break;
         		
-        	case 2:
+        	case 3:
         		courseDao.insertcourse();
         		break;
         		
-        	case 3:
+        	case 4:
         		courseDao.updateCourse();
         		break;
         		
-        	case 4:
-        		courseDao.deleteCourese();
-        		break;
-        		
         	case 5:
+        		courseDao.deleteCourese();
         		break;
         		
         	case 6:
         		break;
         		
         	case 7:
+        		break;
+        		
+        	case 8:
         		break;
         		
         	 default:

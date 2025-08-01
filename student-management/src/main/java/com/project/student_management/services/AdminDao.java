@@ -44,7 +44,7 @@ public class AdminDao {
 	}
 	
 	
-	public boolean insertAdmin() {
+	public Admin singupAdmin() {
 		try {
 			Admin admin = new Admin();			
 			
@@ -60,13 +60,13 @@ public class AdminDao {
 			
 			//Admin exist or not			
 			String hql = "FROM Admin WHERE username= :uname AND email= :umail";
-			Query<Admin> query = session.createQuery(hql);
+			Query<Admin> query = session.createQuery(hql,Admin.class);
 			query.setParameter("uname", username);
 			query.setParameter("umail", email);
 			List<Admin> result = query.list();
 			if(!result.isEmpty()) {
 				System.out.println("Admin Alread Register With This Username or Email");
-				return false;
+				return null;
 			}
 			
 			admin.setUsername(username);
@@ -74,16 +74,16 @@ public class AdminDao {
 			admin.setPassword(password);
 			session.save(admin);
 			transaction.commit();
-			return true;
+			return admin;
 		}catch(Exception ex) {
 			if(transaction != null) transaction.rollback();
 			ex.printStackTrace();
 			System.out.println("Exception In insertAdmin() : " + ex);
-			return false;
+			return null;
 		}
 	}
 	
-	public Admin isAdminExist(String username, String password) {
+	public Admin loginAdmin(String username, String password) {
 		try {
 			String hql = "FROM Admin WHERE username = :uname AND password = :pass";
 			Query<Admin> query = session.createQuery(hql, Admin.class);
@@ -104,6 +104,20 @@ public class AdminDao {
 			return null;
 		}
 		
+		
+	}
+
+
+	public void profile(Admin registeredAdmin) {
+		try {
+			System.out.println("Admin Profile: ");
+			
+			System.out.println("Username : " + registeredAdmin.getUsername());
+			System.out.println("Email : " + registeredAdmin.getEmail());
+			
+		}catch(Exception ex){
+			System.out.println("Exception in admin profile() : " + ex);
+		}
 		
 	}
 	

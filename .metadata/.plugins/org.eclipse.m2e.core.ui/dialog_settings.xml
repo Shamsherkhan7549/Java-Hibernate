@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Hibernate-core\demo"/>
 			<item value="D:\Hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
