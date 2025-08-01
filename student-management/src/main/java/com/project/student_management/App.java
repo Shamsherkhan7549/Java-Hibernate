@@ -134,6 +134,7 @@ public class App
         		break;
         		
         	case 6:
+        		
         		break;
         		
         	case 7:
@@ -174,9 +175,7 @@ public class App
         	case 3:
         		studentDao.buyCourse(registeredStudent);
         		break;
-        	case 4:
-        		studentDao.giveAttendance();
-        		break;
+        	
         	default:
         			System.out.println("Enter Given Option");
         	}

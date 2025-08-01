@@ -182,11 +182,21 @@ public class StudentDao {
 		}
 		
 	}
-
-	public void giveAttendance() {
-		
-		
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
