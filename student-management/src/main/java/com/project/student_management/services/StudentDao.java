@@ -84,6 +84,105 @@ public class StudentDao {
 			return null;
 		}
 	}
+
+	//Student login
+	public Student loginStudent() {
+		try {
+			System.out.println("Enter Username");
+        	String username = sc.next();
+        	
+        	System.out.println("Enter Password");
+        	String password = sc.next();
+        	
+			String hql = "FROM Student WHERE username = :uname AND password = :pass";
+			Query<Student> query = session.createQuery(hql, Student.class);
+			query.setParameter("uname", username);
+			query.setParameter("pass", password);
+			
+			List<Student> result = query.list();
+			
+			if(!result.isEmpty()) {
+				return result.get(0);
+			}
+			System.out.println("Student Not Registered");
+			return null;
+			
+		}catch(Exception ex) {
+			System.out.println("Student Not Registered");
+			System.out.println("Exception in loginAdmin() : " + ex);
+			return null;
+		}
+	}
+
+	public void profile(Student registeredStudent) {
+		try {
+			System.out.println("Student Profile: ");
+			
+			System.out.println("Username : " + registeredStudent.getUsername());
+			System.out.println("Email : " + registeredStudent.getEmail());
+			
+		}catch(Exception ex){
+			System.out.println("Exception in student profile() : " + ex);
+		}
+		
+	}
+
+	public void buyCourse(Student registeredStudent) {
+		try {
+			CourseDao courseDao = new CourseDao();
+			if(!courseDao.isConfigureCourse()) {
+				System.out.println("Problem in course configuration");
+				return;
+			}
+			courseDao.fetchAllCourse();
+			
+			
+			
+			System.out.println("Enter Course_id to Buy : ");
+			int course_id = sc.nextInt();
+			
+			Course selectedCourse = session.get(Course.class, course_id);
+			
+			if(selectedCourse == null) {
+				System.out.println("Course is not available with this id");
+				return;
+			}
+			
+			if(registeredStudent.getCourses().contains(selectedCourse)) {
+				System.out.println("This Course is Already Purchased");
+				return;
+			}
+			
+			
+			
+			System.out.println("Enter Fees");
+			int fees = sc.nextInt();
+			
+			if(fees != selectedCourse.getFees()) {
+				System.out.println("Payment Failed");
+				return;
+			}
+			
+			Course course = new Course();
+			course.setCourse_id(course_id);
+			registeredStudent.getCourses().add(course);
+			
+			session.update(registeredStudent);
+			transaction.commit();
+			System.out.println("Course Saved");	
+			
+		}catch(Exception ex) {
+			if(transaction != null) transaction.rollback();
+			System.out.println("Course Not Saved");	
+			System.out.println("Exception in buyCourse() : " + ex);
+		}
+		
+	}
+
+	public void giveAttendance() {
+		
+		
+	}
 	
 	
 	

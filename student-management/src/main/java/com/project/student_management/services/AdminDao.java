@@ -43,7 +43,7 @@ public class AdminDao {
 		return status;
 	}
 	
-	
+	//Admin signUp
 	public Admin singupAdmin() {
 		try {
 			Admin admin = new Admin();			
@@ -83,6 +83,7 @@ public class AdminDao {
 		}
 	}
 	
+	//Admin Login
 	public Admin loginAdmin() {
 		try {
 			System.out.println("Enter Username");
@@ -113,7 +114,7 @@ public class AdminDao {
 		
 	}
 
-
+	// Admin Profile
 	public void profile(Admin registeredAdmin) {
 		try {
 			System.out.println("Admin Profile: ");
@@ -126,6 +127,9 @@ public class AdminDao {
 		}
 		
 	}
+
+
+	
 	
 	
 	

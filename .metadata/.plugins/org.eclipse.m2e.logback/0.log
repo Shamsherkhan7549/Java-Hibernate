@@ -3358,3 +3358,207 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (5) references 
 2025-08-01 06:30:07,349 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
 2025-08-01 06:30:20,515 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-01 06:30:20,519 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 06:35:30,311 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-01 06:37:54,288 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier  to /Hibernate-Mapping/target/classes
+2025-08-01 06:37:54,749 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 06:37:54,768 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:18:35,834 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-01 07:20:07,261 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier  to /Hibernate-Mapping/target/classes
+2025-08-01 07:20:07,863 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:20:07,874 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:21:55,120 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:21:55,125 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:24:09,479 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:24:09,487 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:24:19,649 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:24:19,655 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:24:54,362 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:24:54,366 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:25:21,571 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:25:21,575 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:25:35,797 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:25:35,804 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:27:57,789 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:27:57,794 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:28:52,585 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:28:52,590 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:32:15,807 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:32:15,812 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:32:22,557 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:32:22,563 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:32:36,294 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:32:36,299 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:32:53,482 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:32:53,487 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:33:03,966 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:33:03,972 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:33:10,828 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:33:10,832 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:33:19,065 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:33:19,070 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:34:07,267 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:34:07,272 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:34:37,436 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:34:37,441 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:36:38,456 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:36:38,460 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:36:50,050 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:36:50,055 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:37:04,516 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:37:04,521 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:40:13,318 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:40:13,323 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:44:11,352 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:44:11,356 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:44:47,478 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:44:47,482 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:45:01,276 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:45:01,281 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:45:46,752 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:45:46,759 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:48:32,561 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:48:32,567 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:49:47,107 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:49:47,111 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 07:57:17,612 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 07:57:17,616 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:01:46,723 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:01:46,728 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:03:37,912 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:03:37,949 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:03:58,201 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:03:58,206 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:11:04,310 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:11:04,314 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:12:06,873 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:12:06,877 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:12:59,941 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:13:00,059 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:13:00,128 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:13:26,445 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:13:26,449 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:13:30,913 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:13:30,976 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:13:31,051 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:14:00,688 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:14:00,751 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:14:00,802 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:16:14,101 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:16:14,198 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:16:14,329 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:18:40,730 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:18:40,734 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:19:25,812 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:19:25,912 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:19:25,984 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:20:10,974 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:20:10,977 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:21:17,127 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:21:17,231 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:21:17,372 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:21:48,823 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:21:48,883 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:21:48,946 [Worker-7: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:22:12,266 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:22:12,280 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:22:26,063 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:22:26,067 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 08:22:29,565 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:22:29,647 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:22:29,735 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 08:25:40,262 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 08:25:40,266 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:32:21,564 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-01 10:35:36,620 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier  to /Hibernate-Mapping/target/classes
+2025-08-01 10:35:37,220 [Worker-12: Launching App (6)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:35:37,235 [Worker-12: Launching App (6)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:35:38,125 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:35:38,202 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:35:38,280 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:40:57,403 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:40:57,408 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:44:56,714 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:44:56,720 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:45:06,762 [Worker-12: Launching App (6)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:45:06,769 [Worker-12: Launching App (6)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:45:06,940 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:45:07,044 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:45:07,133 [Worker-12: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:45:38,697 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:45:38,791 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:45:38,844 [Worker-14: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:46:25,823 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:46:25,929 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:46:26,018 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:47:09,704 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:47:09,708 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:50:24,955 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:50:24,959 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:50:34,002 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:50:34,006 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:52:48,784 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 10:52:48,789 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 10:53:14,640 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:53:14,713 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:53:14,788 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:54:56,037 [Worker-16: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:54:56,184 [Worker-16: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 10:54:56,276 [Worker-16: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:11:57,395 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:11:57,400 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:12:07,442 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:12:07,446 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:12:51,780 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:12:51,788 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:12:58,033 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:12:58,038 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:13:17,942 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:13:17,946 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:13:27,038 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:13:27,095 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:13:27,151 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:14:39,566 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:14:39,571 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:15:28,444 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:15:28,449 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:17:01,454 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:17:01,473 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:19:55,478 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:19:55,482 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:20:19,748 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:20:19,809 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:20:19,875 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:24:47,125 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:24:47,129 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:25:16,188 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:25:16,293 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:25:16,351 [Worker-17: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:26:24,773 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:26:24,777 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:28:17,497 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:28:17,565 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:28:17,625 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:15,686 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:30:15,690 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:30:26,909 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:26,971 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:27,017 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:46,905 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:46,962 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:30:47,014 [Worker-15: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:35:52,895 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:35:52,901 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:36:30,956 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:36:30,959 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:37:42,865 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:37:42,869 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:37:48,863 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:37:48,912 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:37:48,970 [Worker-13: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:41:02,591 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:41:02,598 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources
+2025-08-01 11:41:07,686 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:41:07,729 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:41:07,774 [Worker-19: Launching App (6)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate-Mapping: com.example:Hibernate-Mapping:0.0.1-SNAPSHOT with classifier null to /Hibernate-Mapping/target/classes
+2025-08-01 11:41:41,071 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-01 11:41:41,074 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Hibernate-core\student-management\src\test\resources

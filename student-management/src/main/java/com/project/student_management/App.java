@@ -24,10 +24,9 @@ public class App
         StudentDao studentDao = new StudentDao();
        
         
-        
         //CourseDao
         CourseDao courseDao = new CourseDao();
-        if(!courseDao.isConfigureCourse()) {
+        if(!courseDao.isConfigureCourse()){
     		System.out.println("Problem in Course Configuration");
     		return;
     	}
@@ -39,7 +38,7 @@ public class App
         
         //Student
         System.out.println("Enter 3 to Signup  as Student");
-        System.out.println("Enter 4 to Signup  as Student");
+        System.out.println("Enter 4 to Signin  as Student");
         
         //Check Login
         boolean isAdminLogin = false;       
@@ -51,8 +50,8 @@ public class App
         switch(option) {
         case 1:
         	 // AdminDao configure
-            if(adminDao.isConfigureAdmin()) {
-            	System.out.println("Problem in Adminn Configuration");
+            if(!adminDao.isConfigureAdmin()) {
+            	System.out.println("Problem in Admin Configuration");
             	return;
             }
         	System.out.println("Enter Admin Passcode");
@@ -67,16 +66,14 @@ public class App
         	break;    	
         case 2:
         	 // AdminDao configure
-            if(adminDao.isConfigureAdmin()) {
+            if(!adminDao.isConfigureAdmin()) {
             	System.out.println("Problem in Adminn Configuration");
             	return;
             }
         	registeredAdmin = adminDao.loginAdmin();
         	if(registeredAdmin != null) {
         		isAdminLogin = true;
-        	}else {
-        		isAdminLogin = false;
-        	}	
+        	}
         	break;
         case 3:
         	 if(!studentDao.isConfigure()) {
@@ -89,6 +86,15 @@ public class App
     		}
         	break;
         case 4:
+        	// student login
+        	if(!studentDao.isConfigure()) {
+             	System.out.println("Problem in Student Configuration");
+             	return;
+             }
+        	registeredStudent = studentDao.loginStudent();
+        	if(registeredStudent != null) {
+        		isStudentLogin = true;
+        	}	
         	break;
         }
         
@@ -135,22 +141,54 @@ public class App
         		
         	case 8:
         		break;
-        		
-        	 default:
-         		System.out.println("Enter A Valid key");
+        	default:
+    			System.out.println("Enter Given Option");
+        	}
+        	System.out.println("Do you want to Signout y/n ? ");
+        	char per = sc.next().charAt(0);
+        	if(per == 'y') {
+        		isAdminLogin = false;
+        	} 	
+        	
+        }
+        
+        //Student Functionalities
+        
+        while(isStudentLogin) {
+        	System.out.println("Enter 1 to See Profile");
+        	System.out.println("Enter 2 to See all Course");
+        	System.out.println("Enter 3 to Buy Course");
+        	System.out.println("Enter 4 to Give Attendance");
+        	
+        	System.out.println("Enter Option");
+        	int opt = sc.nextInt();
+        	
+        	switch(opt) {
+        	case 1:
+        		studentDao.isConfigure();
+        		studentDao.profile(registeredStudent);
+        		break;
+        	case 2:
+        		courseDao.fetchAllCourse();
+        		break;
+        	case 3:
+        		studentDao.buyCourse(registeredStudent);
+        		break;
+        	case 4:
+        		studentDao.giveAttendance();
+        		break;
+        	default:
+        			System.out.println("Enter Given Option");
         	}
         	
         	System.out.println("Do you want to Signout y/n ? ");
         	char per = sc.next().charAt(0);
         	if(per == 'y') {
-        		isAdminLogin = false;
-        	}
-        	
-        
+        		isStudentLogin = false;
+        	} 	
         	
         }
         
-        System.out.println("You are Signout");
         
         
         

@@ -38,7 +38,7 @@ public class CourseDao {
 			
 		}catch(Exception ex) {
 			status = false;
-			System.out.println("Exception in Configuration : " + ex);
+			System.out.println("Exception in Course Configuration : " + ex);
 		}
 		
 		return status;
@@ -48,13 +48,13 @@ public class CourseDao {
 	public void fetchAllCourse() {
 		try {
 			String hql = "FROM Course";
-			Query<Course> query = session.createQuery(hql);
+			Query<Course> query = session.createQuery(hql,Course.class);
 			
 			List<Course> results = query.list();
 			
 			if(results.isEmpty()) {
 				System.out.println("Course is Empty");
-				return;
+				return ;
 			}
 			
 			for(Course course: results) {
@@ -63,6 +63,7 @@ public class CourseDao {
 		}catch(Exception ex) {
 			ex.printStackTrace();
 			System.out.println("Exception in fetchAllCourse() : " + ex);
+			
 		}
 		
 	}
