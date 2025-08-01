@@ -3,8 +3,10 @@ package com.project.student_management;
 import java.util.Scanner;
 
 import com.project.student_management.entity.Admin;
+import com.project.student_management.entity.Student;
 import com.project.student_management.services.AdminDao;
 import com.project.student_management.services.CourseDao;
+import com.project.student_management.services.StudentDao;
 
 public class App 
 {
@@ -15,17 +17,18 @@ public class App
     	Admin registeredAdmin = new Admin();
     	//AdminDao
         AdminDao adminDao = new AdminDao();
-        // AdminDao configue
-        boolean isConfigure = adminDao.isConfigureAdmin();
-        if(!isConfigure) {
-        	System.out.println("Problem in Adminn Configuration");
-        	return;
-        }
+        
+        // Student
+        Student registeredStudent = new Student();
+        //StudentDao
+        StudentDao studentDao = new StudentDao();
+       
+        
         
         //CourseDao
         CourseDao courseDao = new CourseDao();
         if(!courseDao.isConfigureCourse()) {
-    		System.out.println("Problem in configuration");
+    		System.out.println("Problem in Course Configuration");
     		return;
     	}
        
@@ -40,11 +43,18 @@ public class App
         
         //Check Login
         boolean isAdminLogin = false;       
+        boolean isStudentLogin = false;
         
         System.out.println("Enter Option : ");
         int option = sc.nextInt();
-           
-        if(option == 1) {
+              
+        switch(option) {
+        case 1:
+        	 // AdminDao configure
+            if(adminDao.isConfigureAdmin()) {
+            	System.out.println("Problem in Adminn Configuration");
+            	return;
+            }
         	System.out.println("Enter Admin Passcode");
         	String passcode = sc.next();
         	
@@ -54,19 +64,32 @@ public class App
         			isAdminLogin = true;
         		}
         	}
-        }else if(option == 2) {
-        	System.out.println("Enter Username");
-        	String username = sc.next();
-        	
-        	System.out.println("Enter Password");
-        	String password = sc.next();
-        	registeredAdmin = adminDao.loginAdmin(username,password);
+        	break;    	
+        case 2:
+        	 // AdminDao configure
+            if(adminDao.isConfigureAdmin()) {
+            	System.out.println("Problem in Adminn Configuration");
+            	return;
+            }
+        	registeredAdmin = adminDao.loginAdmin();
         	if(registeredAdmin != null) {
         		isAdminLogin = true;
         	}else {
         		isAdminLogin = false;
         	}	
-        	
+        	break;
+        case 3:
+        	 if(!studentDao.isConfigure()) {
+             	System.out.println("Problem in Student Configuration");
+             	return;
+             }
+        	registeredStudent = studentDao.singupStudent();
+    		if(registeredStudent != null) {
+    			isStudentLogin = true;
+    		}
+        	break;
+        case 4:
+        	break;
         }
         
         //Admin functionalities

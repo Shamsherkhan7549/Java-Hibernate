@@ -78,13 +78,19 @@ public class AdminDao {
 		}catch(Exception ex) {
 			if(transaction != null) transaction.rollback();
 			ex.printStackTrace();
-			System.out.println("Exception In insertAdmin() : " + ex);
+			System.out.println("Exception In signupAdmin() : " + ex);
 			return null;
 		}
 	}
 	
-	public Admin loginAdmin(String username, String password) {
+	public Admin loginAdmin() {
 		try {
+			System.out.println("Enter Username");
+        	String username = sc.next();
+        	
+        	System.out.println("Enter Password");
+        	String password = sc.next();
+        	
 			String hql = "FROM Admin WHERE username = :uname AND password = :pass";
 			Query<Admin> query = session.createQuery(hql, Admin.class);
 			query.setParameter("uname", username);
@@ -100,7 +106,7 @@ public class AdminDao {
 			
 		}catch(Exception ex) {
 			System.out.println("Admin Not Registered");
-			System.out.println("Exception in isAdminExist() : " + ex);
+			System.out.println("Exception in loginAdmin() : " + ex);
 			return null;
 		}
 		
