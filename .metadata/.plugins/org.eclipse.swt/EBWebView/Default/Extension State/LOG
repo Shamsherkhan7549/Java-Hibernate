@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/08/02-11:50:04.552 410 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
 2025/08/02-11:50:04.552 410 Recovering log #3
 2025/08/02-11:50:04.553 410 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+=======
+2025/08/01-13:26:56.239 20c8 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
+2025/08/01-13:26:56.288 20c8 Recovering log #3
+2025/08/01-13:26:56.289 20c8 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+>>>>>>> 4f6004c57f46199609f161482eedc94545902a42

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/08/02-11:48:19.051 2d94 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
 2025/08/02-11:48:19.059 2d94 Recovering log #3
 2025/08/02-11:48:19.059 2d94 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+=======
+2025/08/01-10:35:26.704 b5c Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/08/01-10:35:26.707 b5c Recovering log #3
+2025/08/01-10:35:26.707 b5c Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+>>>>>>> 4f6004c57f46199609f161482eedc94545902a42

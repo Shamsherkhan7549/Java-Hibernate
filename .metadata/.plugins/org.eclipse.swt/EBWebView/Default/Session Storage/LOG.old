@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/08/02-11:49:15.937 2214 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
 2025/08/02-11:49:15.939 2214 Recovering log #3
 2025/08/02-11:49:15.941 2214 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+=======
+2025/08/01-10:35:26.942 3100 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
+2025/08/01-10:35:26.980 3100 Recovering log #3
+2025/08/01-10:35:26.984 3100 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+>>>>>>> 4f6004c57f46199609f161482eedc94545902a42

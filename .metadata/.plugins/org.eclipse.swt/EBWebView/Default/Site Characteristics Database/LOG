@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/08/02-11:50:04.412 1c4c Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
 2025/08/02-11:50:04.415 1c4c Recovering log #3
 2025/08/02-11:50:04.415 1c4c Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
+=======
+2025/08/01-13:26:55.973 2190 Reusing MANIFEST D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/08/01-13:26:55.975 2190 Recovering log #3
+2025/08/01-13:26:55.975 2190 Reusing old log D:\Hibernate-core\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
+>>>>>>> 4f6004c57f46199609f161482eedc94545902a42
