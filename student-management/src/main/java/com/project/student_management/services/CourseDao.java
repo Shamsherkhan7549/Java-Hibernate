@@ -10,6 +10,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
 import com.project.student_management.entity.Admin;
+import com.project.student_management.entity.Attendance;
 import com.project.student_management.entity.Course;
 import com.project.student_management.entity.Student;
 
@@ -29,6 +30,7 @@ public class CourseDao {
 			cfg.addAnnotatedClass(Student.class);
 			cfg.addAnnotatedClass(Course.class);
 			cfg.addAnnotatedClass(Admin.class);
+			cfg.addAnnotatedClass(Attendance.class);
 			
 			factory = cfg.buildSessionFactory();
 			session = factory.openSession();

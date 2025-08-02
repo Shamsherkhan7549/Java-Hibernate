@@ -5,6 +5,7 @@ import java.util.Scanner;
 import com.project.student_management.entity.Admin;
 import com.project.student_management.entity.Student;
 import com.project.student_management.services.AdminDao;
+import com.project.student_management.services.AttendanceDao;
 import com.project.student_management.services.CourseDao;
 import com.project.student_management.services.StudentDao;
 
@@ -22,6 +23,8 @@ public class App
         Student registeredStudent = new Student();
         //StudentDao
         StudentDao studentDao = new StudentDao();
+        //Attendance Dao
+        AttendanceDao attendanceDao = new AttendanceDao();
        
         
         //CourseDao
@@ -134,6 +137,7 @@ public class App
         		break;
         		
         	case 6:
+        		
         		break;
         		
         	case 7:
@@ -174,9 +178,15 @@ public class App
         	case 3:
         		studentDao.buyCourse(registeredStudent);
         		break;
+        		
         	case 4:
-        		studentDao.giveAttendance();
+        		if(!attendanceDao.isConfigure()) {
+        			System.out.println("Problem in Attendance Configuration");
+        			return;
+        		}
+        		attendanceDao.giveAttendance(registeredStudent);
         		break;
+        	
         	default:
         			System.out.println("Enter Given Option");
         	}

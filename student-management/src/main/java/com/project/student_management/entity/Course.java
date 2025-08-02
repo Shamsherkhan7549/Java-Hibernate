@@ -1,13 +1,17 @@
 package com.project.student_management.entity;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Course {
@@ -24,6 +28,17 @@ public class Course {
 	@ManyToMany(mappedBy = "courses")
 	Set<Admin> admins = new HashSet<>();
 	
+	@OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
+	private List<Attendance> attendance = new ArrayList<>();
+	
+	public List<Attendance> getAttendance() {
+		return attendance;
+	}
+
+	public void setAttendance(List<Attendance> attendance) {
+		this.attendance = attendance;
+	}
+
 	public Set<Admin> getAdmins() {
 		return admins;
 	}
